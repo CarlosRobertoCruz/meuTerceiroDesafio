@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primeira: #F2890D;
+    --segunda: #1180E6;
+    --terceira: #B0A3A3;
+    --preto: #000000;
+    --branca: #fff
+}
+
+body{
+    background-color: var(--primeira);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+    
+}
+
+
+.divPaiMaster{
+    background-color: var(--branca);
+    width: 90%;
+    max-width: 1078px;
+    height: 620px;
+    margin-top: 153px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 19px;
+}
+
+.meuAzulFavorito{
+    background-color: var(--segunda);
+    width: 258px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    top: -75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.oJogo{
+    font-size: 70px;
+    font-family: 'Squada One', 'cursive';
+}
+
+
+.paiPequeno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.imgCorpo{
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+.pixelados{
+    font-size: 18px;
+    font-family: 'Press Start 2P', 'cursive';
+}
+
+
+.jogar{
+    background-color: var(--primeira);
+    color: var(--branca);
+}
+
+button{
+    width: 200px;
+    height: 42px;
+}
+
+.comecar{
+    background-color: var(--segunda);
+    color: var(--branca);
+    border: 3px solid var(--preto);
+    border-radius: 20px;
+}
+
+.comecar:hover{
+    background-color: var(--preto);
+    color: var(--primeira);
+}
+
+.filhoUm{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.filhoDois{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linha{
+    background-color: var(--terceira);
+    width: 4px;
+    height: 380px;
+    margin-top: 10px;
+}
+
+input{
+    width: 350px;
+    height: 28px;
+    border: 3px solid var(--terceira);
+    border-radius: 5px;
+    margin-top: 17px;
+}
+
+
+.nick{
+    margin-bottom: 61px;
+}
+
+.selecao{
+    border: 3px solid var(--terceira);
+    border-radius: 5px;
+    width: 350px;
+    height: 36px;
+    margin-top: 17px;
+    margin-bottom: 61px;
+}
+
+.optionSelecao{
+    border: 3px solid var(--terceira);
+    border-radius: 5px;
+    width: 350px;
+    height: 36px;
+}
+
+
+.letraLinda{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.comMargin{
+    margin-bottom: 41px;
+}
+
+.numero{
+    margin-top: 30px;
+}
+
+.jogar{
+    margin-top: 50px;
+    border: 3px solid var(--preto);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.jogar:hover{
+    background-color: var(--preto);
+    color: var(--primeira)
+}
+
+.comecar:hover{
+    background-color: var(--preto);
+    color: var(--segunda);
+}
+
+.infos{
+    margin-top: 29px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.tentativas{
+    font-size: 20px;
+}

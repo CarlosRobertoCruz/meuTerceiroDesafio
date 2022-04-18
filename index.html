@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oJogo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        
+        <div class="divPaiMaster">
+
+            <div class="meuAzulFavorito">
+                <h1 class="oJogo">Ojogo</h1>
+            </div>
+
+            <section class="paiPequeno">
+
+                <section class="filhoUm">
+
+                    <div class="imgCorpo">
+                        <img src="IMG/image 1.png" alt="pessoa em formas geométricas">
+                    </div>
+
+                    <div>
+                        <p class="pixelados">Nick:</p>
+                        <input type="text" class="nick" id="nick">
+                    </div>
+
+                    <div>
+                        <p class="pixelados">intervalo:</p>
+                        <select name="selecao" id="selecao" class="selecao">
+                            <option class="optionSelecao1" value="1">Opção 1: 1 a 10</option>
+                            <option class="optionSelecao2" value="2">Opção 2: 1 a 100</option>
+                            <option class="optionSelecao3" value="3">Opção 3: 1 a 200</option>
+                        </select>
+                    </div>
+
+                    <button class="pixelados comecar" id="comecar">começar</button>
+
+                </section>
+
+
+                <div class="linha"></div>
+
+                <section class="filhoDois">
+
+                    <p class="letraLinda">Olá <strong class="fulano" id="fulano">Fulano</strong>, vamos jogar! </p>
+                    <p class="letraLinda comMargin">De acordo com a opçao de intervalo que você escolheu, descubra o número.</p>
+                    
+                    <div>
+                        <p class="pixelados numero">Digite um número:</p>
+                        <input type="number" id="numero">
+                    </div>
+
+                    <button class="pixelados jogar" id="jogar">jogar</button>
+                    <p class="infos" id="oNumeroE">o numero é (maior/menor)</p>
+                    <p class="tentativas" id="tentativas">Você ainda tem 3 tentativas</p>
+
+                </section>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>

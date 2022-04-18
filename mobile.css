@@ -1,0 +1,39 @@
+
+
+@media(max-width: 428px){
+    body{
+        height: 1600px;
+        max-width: 460px;
+    }
+    
+    .linha{
+        display: none;
+    }
+
+    .divPaiMaster{
+        flex-direction: column;
+        height: 1346px;
+        width: 320px;
+    }
+
+    .paiPequeno{
+        flex-direction: column;
+    }
+
+    .imgCorpo{
+        width: 200px;
+        height: 200px;
+    }
+
+    input{
+       margin-top: 19px;
+       width: 300px;
+       height: 42px;
+    }
+
+    .selecao{
+        width: 300px;
+        height: 42px;
+    }
+    
+}
